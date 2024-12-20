@@ -24,7 +24,7 @@ class DatabaseSeeder extends Seeder
 
         Supplier::factory()
             ->count(10)
-            ->has(Product::factory()->count(20))
+            ->has(Product::factory()->count(30))
             ->create();
 
     }
